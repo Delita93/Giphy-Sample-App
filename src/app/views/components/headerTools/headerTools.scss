@@ -1,0 +1,57 @@
+//@import '../../../styles/custom.scss';
+
+.HeaderTools {
+  //font-family: 'Roboto-Regular';
+
+  .SelectText {
+    position: relative;
+    left: 1vw;
+    padding-top: 4px;
+  }
+
+  .bg-headerTools {
+    background-color: #f1f1f1;
+    padding: 0.35rem 0.5rem !important;
+  }
+  
+  .SearchSection {
+    left: 4rem;
+
+    .input-group {
+      width: 90%;
+    }
+    .SearchInput {
+      border-radius: 0.1rem;
+      border: 1px solid #acacaf;
+      font-size: 12pt;
+      padding-right: 3rem;
+      padding-left: 1rem;
+      height: calc(1.3em + 0.55rem + 1px);
+
+      &:focus {
+        border-color: #00A5FA;
+        box-shadow: 0px 0px 3px #2d8ac0;
+      }
+    }
+
+    .SearchIcon {
+      color: white;
+      background-color: #0056a2;
+      border-color: #0056a2;
+      position: relative;
+      right: 42px;
+      z-index: 3;
+      border-radius: 0;
+      cursor: pointer;
+
+      &:hover {
+        color: white;
+        background: #0086D4;
+      }
+    }
+  }
+}
+
+.row {
+  width: 100%;
+}

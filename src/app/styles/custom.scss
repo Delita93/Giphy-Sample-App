@@ -1,0 +1,23 @@
+/* All the Custom css come in here */
+
+// Primary Colors
+$primary-color-blue1: #00559D;
+$background-color1: #0056a2;
+$backgound-color-hover1: #0086D4;
+
+
+/* header items */ 
+.AppName {
+  position: relative;
+  left: 4rem;
+  Font-size: 20px;
+  font-weight: bold;
+}
+
+.Loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 99;
+}
+
